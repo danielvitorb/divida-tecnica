@@ -10,9 +10,12 @@ produtos = []
 
 
 # funcao que adiciona produto
-def add(n, p, q, hist=[]):
-    produtos.append({"nome": n, "preco": p, "qtd": q})
-    hist.append(n)
+def adicionar_produto(nome, preco, quantidade, historico=None):
+    if historico is None:
+        historico = []
+        
+    produtos.append({"nome": nome, "preco": preco, "qtd": quantidade})
+    historico.append(nome)
     print("Produto adicionado!")
 
 
