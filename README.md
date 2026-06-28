@@ -26,5 +26,4 @@ O código original possuía diversas dívidas técnicas acumuladas, incluindo au
    * **Solução:** Substituição da lista por uma sentinela imutável (`None`) com instanciação local e renomeação de todas as variáveis para refletir a semântica de negócio (`nome`, `preco`, `quantidade`).
 
 ## 📄 Relatório Técnico
-A análise completa do inventário, matriz de priorização e o *roadmap* detalhado de quitação podem ser encontrados no relatório em PDF anexado neste repositório:
-👉 [Acessar Relatório Técnico Completo](./Relatorio_Divida_Tecnica.pdf)
+A análise completa do inventário, matriz de priorização e o *roadmap* detalhado de quitação podem ser encontrados no relatório em PDF anexado neste repositório.
